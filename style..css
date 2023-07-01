@@ -1,7 +1,9 @@
 body {
     background-color: #f3d9d6;
-    padding: 10;
-    margin: 10;
+    margin: 0;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 nav ul {
@@ -17,7 +19,9 @@ nav ul {
   gap: 150px;
   border-bottom:2px solid ;
   padding-left: 4%;
-  padding: right 4%; ;
+  padding-right: 4%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .logo {
     color: green;
@@ -46,24 +50,22 @@ nav {
 }
 
 .test {
-    display:inline-flex;
-    align-items:center;
-    gap: 200px;
+    display: flex;
+    align-items: center;
+    gap: 400px;
     background-color: white;
-   padding-left:4%
-   padding-right:4%;
-  padding top: 100px;;
-  padding bottom: 50px;
-   
-}
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 50px;
+  }
+  
 .button {
     padding: 20px;
     border: none;
     color: white;
-    background-color:orangered;
- 
-  
-   
+    background-color:orangered; 
 }
 .free {
     color: grey;
@@ -80,7 +82,8 @@ p {
 }
 
 .card {
-    width: 270px;
+margin-left: 25px;
+    width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
